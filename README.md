@@ -37,69 +37,65 @@
   <img src="https://img.shields.io/badge/GoogleAnalytics-hj?style=flat-square&logo=Google%20Analytics&logoColor=white&color=%23E37400"/>&nbsp  
 </p>
 
-<br><br>
-
 # **소개**
 
-기록 및 정리를 습관화 하기위해 노력하는 김현준입니다.
-<br><br>
-아이나비 시스템즈에서 GPS 기반 다양한 지도 도메인 웹 서비스 및 API 개발을 경험하였고, FMS (Fleet Management System) 서비스의 클라이언트 개발을 주도적으로 진행하면서 본격적인 FE 개발의 시작점이 되었습니다.
-<br><br>
-디케이 테크인에서 Kakao i LaaS 창고 매칭 서비스 클라이언트 리뉴얼을 담당하였습니다.
-<br>
-3개월 남짓 짧은 시간이었지만 카카오 플랫폼과 서비스 및 클라우드 환경을 경험해볼 수 있었고, Vue, Nuxt 기반 SPA 도 다뤄보면서 FE 개발로의 방향성을 잡을 수 있게된 것 같습니다.
-<br><br>
-현재 티맵 모빌리티에서 지도 서비스 배포 및 전반적인 인프라 운영, 지도 생성을 위한 관리 서비스의 개발을 담당하며 도메인 지식 및 개발 역량 강화중에 있습니다.
-<br><br>
-개발 방향성을 잡기 이전의 기본기를 탄탄히 하고자 FE, BE, Server 등 다양한 기술 스택을 쌓았습니다.
-<br><br>
-다양한 기술 스택을 토대로 각 분야의 담당자들과 소통하며 업무에 임하며, 지도 도메인으로 더 나은 소프트웨어 엔지니어가 되기위해 노력하고 있습니다.
-<br><br>
-읽어주셔서 감사합니다.
-<br><br>
+기록과 정리를 습관화하며 지속적인 개선을 추구하는 프론트엔드 개발자 김현준입니다.
 
-***
-<br>
+7년 이상 지도 플랫폼과 GIS 기반 서비스를 개발하며 SDK, 차량 관제 시스템, 지도 데이터 운영 플랫폼을 개발해왔습니다.
 
-# **경력**
+최근에는 React · TypeScript 기반 차세대 지도 플랫폼(ROMA)과 AI(MCP, RAG)를 활용한 운영 자동화에 집중하고 있습니다.
+
 
 <br>
 
-- 아이나비 시스템즈
-  + 2019.08 ~ 2022.06
-  + 소속 : 전략 POC 그룹 응용기술개발팀
-  + 담당 : 지도기술 연구 담당 | 지도 FE 개발
+# **Career**
+
+### TMAP Mobility (SK)
+**2023.01 ~ 현재*
+
+**Map Infra Team | Frontend Software Engineer**
+
+- 차세대 지도 플랫폼 (ROMA) 구축
+- 지도 데이터 운영 및 배포 서비스 개발
+- React · TypeScript 기반 지도 관리 플랫폼 개발
+- AI (MCP, RAG) 기반 운영 지원 챗봇 개발
 
 <br>
 
-- 디케이 테크인
-  + 2022.09 ~ 2022.12
-  + 소속 : SI 사업부문 물류서비스개발팀
-  + 담당 : 물류 매칭 서비스 FE 개발
+### DK Techin (Kakao)
+**2022.09 ~ 2022.12**
+
+**Logistics Service Development Team | Frontend Developer**
+
+- Kakao i LaaS 물류 매칭 서비스 리뉴얼
+- Vue · Nuxt 기반 서비스 운영 및 UI 개선
 
 <br>
 
-- 티맵 모빌리티
-  + 2023.01 ~ 재직중
-  + 소속 : Tech 부문 맵플랫폼 그룹 맵인프라팀
-  + 담당 : 지도기술 연구 | 지도 FE 개발
+### Inavi Systems (Thinkware)
+**2019.08 ~ 2022.06**
 
-<br>
+**Applied Technology Development Team | Frontend Developer**
 
-***
+- 지도 SDK 및 지도 API 개발
+- 차량 관제(FMS) 서비스 개발
+- 지도 데이터 운영 및 최신화
+- Connected Admin 개발
+
 <br>
 
 # **프로젝트**
 
-<br>
-
 > ## iNavi Maps API & Guide
 
-- 사이트 : [iNavi Maps API](http://www.inavi.kr/api_web/)
+- 사이트 : http://www.inavi.kr/api_web/
 - 기간 : 2019.11 ~ 2020.06
-- 설명 : iNavi Maps API 및 이용 안내 서비스
-- 역할 : 지도 API 개선 및 직접 해보기 기능 구현
-- 사용 기술 : HTML, JavaScript, Vue, Node
+- 설명 : Mapbox GL 기반 지도 SDK와 API를 제공하고, API를 브라우저에서 직접 테스트할 수 있는 Guide & Playground 서비스
+- 역할 :
+  - 지도 API(SDK) 유지보수 및 기능 개선
+  - Feature 생성 로직 및 스타일 속성 확장
+  - API Playground 및 이용 가이드 개발
+- 사용 기술 : JavaScript, Vue.js, Node.js, Mapbox GL JS
 
 ![가이드 메인 페이지](./images/iNavi_Maps_API_Guide_Main.PNG)
 ![가이드 직접 해보기](./images/iNavi_Maps_API_Guide_Request.PNG)
@@ -110,19 +106,27 @@
 > ## iNavi Connected Admin
 
 - 기간 : 2020.06 ~ 2020.09
-- 설명 : 블랙박스 단말 관리를 위한 관리자용 Admin
-- 역할 : 신규 메뉴 개발, 운영
-- 사용 기술 : JavaScript, Java, Spring Boot, MySQL
+- 설명 : 국내·해외 블랙박스 단말 및 Connected API 운영 관리 서비스
+- 역할 :
+  - Connected API 운영 관리 화면 개발
+  - 통계 대시보드 및 Highcharts 기반 차트 구현
+  - 대용량 통계 조회 및 Excel 다운로드 기능 개발
+- 사용 기술 : JavaScript, Spring Boot, MySQL, Highcharts
 
 <br>
 
-> ## FMS (Fleet Management System)
+> ## Fleet Management System (FMS)
 
-- 사이트 : [국내 FMS 관제 서비스](http://fms.inavisys.com/) / [해외 FMS 관제 서비스](https://www.thinkwareconnected.com/)
+- 사이트 :
+  - 국내 : http://fms.inavisys.com/
+  - 해외 : https://www.thinkwareconnected.com/
 - 기간 : 2020.10 ~ 2022.06
-- 설명 : 블랙박스 단말 GPS 기반 실시간 차량 위치 제공 서비스
-- 역할 : 프로젝트 설계, 개발, 배포, 운영
-- 사용 기술 : Spring Boot, Java, HTML, JavaScript, Google Analytics
+- 설명 : GPS 기반 실시간 차량 위치 추적 및 블랙박스 관리 서비스
+- 역할 :
+  - 지도 기반 실시간 차량 위치 및 주행 경로 조회 기능 개발
+  - OAuth 로그인, SMS, 영상 스트리밍, 통계 기능 개발
+  - AWS 환경 구성 및 서비스 운영
+- 사용 기술 : Spring Boot, Java, JavaScript, Highcharts, AWS
 
 ![FMS 관제 서비스 로그인 페이지](./images/FMS_Login.PNG)
 ![FMS 관제 서비스 메인 페이지](./images/FMS_Main.PNG)
@@ -130,13 +134,15 @@
 
 <br>
 
-> ## Kakao i LaaS Matching 서비스
+> ## Kakao i LaaS Matching
 
-- 사이트 : [Kakao i LaaS Matching](https://kakaoilaas.com/?utm_source=google_pc&tum_medium=sa&utm_campaign=kakaoilaas&utm_term=laas&gclid=CjwKCAiAmuKbBhA2EiwAxQnt7z4cN4BIDDHQNVK5VerzfWIxS1J-oqHt0_zxYBpQz8YGyoFWJ8X0KRoCcaEQAvD_BwE)
+- 사이트 : https://kakaoilaas.com/
 - 기간 : 2022.09 ~ 2022.12
-- 설명 : 회원사와 화주 간 물류 창고 사용을 위한 매칭 서비스
-- 역할 : 프로젝트 리뉴얼
-- 사용 기술 : Vue, Nuxt
+- 설명 : 화주와 창고를 연결하는 물류 매칭 플랫폼
+- 역할 :
+  - Vue · Nuxt 기반 메인 및 주요 화면 리뉴얼
+  - 서비스 운영 및 UI/UX 개선
+- 사용 기술 : Vue.js, Nuxt.js, Vuex
 
 ![Kakao i LaaS Matching 메인 페이지](./images/KAKAO_i_LaaS_Matching_Main.png)
 ![Kakao i LaaS Matching 창고 상세 화면 페이지](./images/KAKAO_i_LaaS_Matching_Detail.png)
@@ -144,25 +150,51 @@
 
 <br>
 
-> ## VSM Admin
+> ## VSM
 
-- 기간 : 2023.01 ~
-- 설명 : 지도 타일 (레이어) 생성 및 관리, SDK 용 config 배포하기 위한 관리 서비스
-- 역할 : SDK config 관리/배포, 추가기능 개발
-- 사용 기술 : Spring Boot, Kotlin, Angular, PostgreSQL, RabbitMQ
+- 기간 : 2023.01 ~ Present
+- 설명 : TMAP 및 AUTO(OEM) 지도 데이터 생성·배포 관리 서비스
+- 역할 :
+  - Angular 기반 운영 관리 화면 개발
+  - 타일링 서비스 및 라벨 전처리 관리 UI 개선
+  - SDK Config 및 지도 데이터 배포 기능 개발
+- 사용 기술 : AngularJS, Spring Boot, Kotlin, PostgreSQL, RabbitMQ
 
-> ## ROMA Resource Admin
+<br>
 
-- 기간 : 2025.04 ~ 2025.10
-- 설명 : 지도에 사용되는 Resource, Package 관리 서비스
-- 역할 : 프로젝트 설계, 개발, 배포
-- 사용 기술 : React, Typescript, Zustand, Redux, Tanstack-Query
+> ## ROMA Resource
 
-> ## ROMA Tiling Admin
-- 기간 : 2025.11 ~ 
-- 설명 : WMTS 기반 동적 지도 타일링 서비스
-- 역할 : 프로젝트 설계, 개발, 배포
-- 사용 기술 : React, Typescript, Jotai, Tanstack-Query
+- 기간 : 2025.04 ~ Present
+- 설명 : 차세대 지도 플랫폼(ROMA)의 Glyphs, Sprite 등 지도 리소스 관리 및 배포 서비스
+- 역할 :
+  - React 기반 리소스 관리 서비스 개발
+  - Glyphs / Sprite 생성 및 관리 기능 구현
+  - 패키지 관리, 리소스 비교 및 배포 기능 개발
+- 사용 기술 : React, TypeScript, Vite, TanStack Query, Zustand, MUI
+
+<br>
+
+> ## ROMA Tiles
+
+- 기간 : 2025.11 ~ Present
+- 설명 : 차세대 지도 플랫폼(ROMA)의 동적 Vector Tile 생성 및 관리 서비스
+- 역할 :
+  - Source, Feature Class, Tileset 관리 기능 개발
+  - GeoJSON · MVT 기반 실시간 지도 미리보기 구현
+  - GLB 기반 3D 지도 뷰어 연동 개발
+- 사용 기술 : React, TypeScript, Vite, TanStack Query, Jotai, MUI
+
+<br>
+
+> ## AI Operations Assistant
+
+- 기간 : 2026 ~ Present
+- 설명 : Slack · Jira · Confluence와 AI를 연계한 사내 운영 지원 챗봇
+- 역할 :
+  - Slack Bot 기반 AI Assistant 개발
+  - MCP 기반 Jira · Confluence 연동
+  - RAG 기반 문서 검색 및 질의응답 기능 구현
+- 사용 기술 : Claude, MCP, RAG, Slack API, Jira API, Confluence API
 
 <br>
 
