@@ -103,7 +103,7 @@
 
 <br>
 
-> ## iNavi Connected Admin
+> ## iNavi Connected
 
 - 기간 : 2020.06 ~ 2020.09
 - 설명 : 국내·해외 블랙박스 단말 및 Connected API 운영 관리 서비스
